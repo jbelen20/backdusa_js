@@ -20,7 +20,6 @@ app.listen (port,()=>{
 app.use(myConnection(mysql,{
     host:'localhost',
     user: 'root',
-    password:'cafeina25',
     port:'3306',
     database: 'dulceSabor_db'
 },'single'));
